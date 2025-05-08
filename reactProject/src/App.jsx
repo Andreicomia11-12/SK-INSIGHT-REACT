@@ -1,10 +1,15 @@
+import './css/style.css'
+import logo from './assets/Logo.png';
+import shape from './assets/realShape.svg';
+
+
 function App() {
   return (
     <>
-      <div className="grid h-screen grid-rows-[34%_70%]">
+      <div className="grid h-screen q-full grid-rows-[34%_70%]">
         <div className="bg-[#0A2C59] login relative">
           <div className="logo-div w-full flex justify-center items-center mt-5">
-            <img src="./assets/Logo.png" className="logo" alt="" />
+            <img src={logo} className="logo" alt="" />
           </div>
           <div className="flex justify-center items-center mt-2 text-center w-full">
             <p className="w-46 text-white font-medium">
@@ -12,9 +17,8 @@ function App() {
             </p>
           </div>
 
-          {/* Positioned SVG image at the bottom */}
           <img
-            src="./assets/Shape.svg"
+            src={shape}
             className="loginframe absolute bottom-0 left-0 w-full h-[60px] -mb-12 object-cover md:none"
             alt=""
           />
