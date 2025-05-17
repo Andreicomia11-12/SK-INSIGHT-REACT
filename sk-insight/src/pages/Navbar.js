@@ -1,4 +1,4 @@
-// components/Navbar.jsx
+// Navbar.jsx or Navbar.js
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
@@ -12,7 +12,7 @@ export default function Navbar() {
           {/* Logo and Brand */}
           <div className="flex items-center space-x-3">
             <img
-              src="/logo.png" // Palitan ng tamang logo path
+              src="/logo.png" // Siguraduhing may tamang path ng logo mo
               alt="SK-INSIGHT Logo"
               className="h-10 w-10"
             />
