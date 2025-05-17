@@ -1,0 +1,35 @@
+.homepage {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  background-color: #d4e2f4;
+}
+
+
+
+.text-section{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: xx-large;
+}
+
+.skk{
+    font-weight: bolder;
+    word-spacing: 10px;
+    display: inline;
+}
+
+.logos{
+    margin-left: -25vh;
+    width: 15vh;
+}
+.text-section p{
+    display: inline;
+}
+
+.headline{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
