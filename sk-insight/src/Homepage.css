@@ -1,0 +1,47 @@
+.homepage {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  background-color: #d4e2f4;
+}
+
+.text-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logos {
+  max-width: 100px;
+  height: auto;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-section p{
+    display: inline;
+}
+
+.headline{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.skk{
+    font-weight: bolder;
+    word-spacing: 10px;
+    display: inline;
+    margin-bottom: 8px;
+}
