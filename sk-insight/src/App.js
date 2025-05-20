@@ -1,4 +1,4 @@
-// src/App.js
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
@@ -14,8 +14,12 @@ function App() {
         <Route path="/" element={<AdminLogin />} />
         <Route path="/user" element={<LoginPage />} />
         <Route path="/home" element={<HomePage />} />
+
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/kk-profile" element={<KKProfile />} />
+
+        <Route path="/navbar" element={<Navbar />} />
+
       </Routes>
     </Router>
   );
