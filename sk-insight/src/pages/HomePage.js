@@ -7,14 +7,15 @@ const HomePage = () => {
   return (
     <>
       <div className="homepage">
-
         <section className="hero">
-          
           <div className="text-section">
-            <img src={Logo} alt="SK Logo" className="logos" />
-            <p className='skk'>SANGGUNIANG KABATAAN</p> 
-            <br />
-            <p>BARANGAY PUTING BATO WEST</p>
+            <div className="logo-container">
+              <img src={Logo} alt="SK Logo" className="logos" />
+            </div>
+            <div className="text-container">
+              <p className='skk'>SANGGUNIANG KABATAAN</p> 
+              <p>BARANGAY PUTING BATO WEST</p>
+            </div>
           </div>
           <h1 className="headline">
             Empowering The Youth
@@ -22,10 +23,9 @@ const HomePage = () => {
             Building a Brighter Future
           </h1>
         </section>
-    </div>
+      </div>
     </>
   )
-
 };
 
 export default HomePage;

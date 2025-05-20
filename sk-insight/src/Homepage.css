@@ -5,25 +5,30 @@
   background-color: #d4e2f4;
 }
 
-
-
-.text-section{
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    font-size: xx-large;
+.text-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
 }
 
-.skk{
-    font-weight: bolder;
-    word-spacing: 10px;
-    display: inline;
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
-.logos{
-    margin-left: -25vh;
-    width: 15vh;
+.logos {
+  max-width: 100px;
+  height: auto;
 }
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .text-section p{
     display: inline;
 }
@@ -32,4 +37,11 @@
     text-align: center;
     justify-content: center;
     width: 100%;
+}
+
+.skk{
+    font-weight: bolder;
+    word-spacing: 10px;
+    display: inline;
+    margin-bottom: 8px;
 }
