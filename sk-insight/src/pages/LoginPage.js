@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaUser, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
-import '../LoginPage.css'; // Assuming you have a CSS file for styling
-import SKlogo from '../assets/logo.png'; // Adjust the path as necessary
+import '../LoginPage.css'; 
+import SKlogo from '../assets/logo.png'; 
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
